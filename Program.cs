@@ -6,7 +6,9 @@ namespace oop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Eletrodomestico geladeira = new Geladeira("Brastemp", "Branca");
+            geladeira.Testar();
+            Console.WriteLine(geladeira.Nome +" "+ geladeira.Cor);
         }
     }
 }
